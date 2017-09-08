@@ -102,6 +102,17 @@ nav.navbar-transparente{
   padding: 10px 0px;
 }
 
+/*-- Recuresos --*/
+#recursos{
+  padding: 20px 0px;
+  color: white;
+}
+
+.rotacionar{
+  -ms-transform: rotate(30deg);/*IE*/
+  -webkit-transform: rotate(30deg); /*Chrome, Safari, Opera*/
+}
+
 /*======================= tipografia =====================*/
 h1{
   font-size: 100px;
@@ -122,6 +133,10 @@ h3{
   letter-spacing: -0,04em;
 }
 
-#servicos h2,h3{
+#servicos h2, #servicos h3{
   color: #7c25f8;
+}
+
+#recursos h3{
+  color: #9bf0e1;
 }
